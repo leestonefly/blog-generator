@@ -37,13 +37,13 @@ tags: 作业
   ### CONNECT：要求隧道协议连接代理
     > CONNECT proxy.hackr.jp:8080 HTTP/1.1
     > Host: proxy.hackr.jp
->注：
-+ * 请求最多包含四部分，最少包含三部分。（也就是说第四部分可以为空）
-+ * 第三部分永远都是一个回车（\n）
-+ * 动词有 GET POST PUT PATCH DELETE HEAD OPTION等
-+ * 这里的路径包括「查询参数」，但不包括「锚点」
-+ * 如果你没有写路径，那么路径默认为 /
-+ * 第 2 部分中的 Content-Type 标注了第 4 部分的格式
+注：
+ * 请求最多包含四部分，最少包含三部分。（也就是说第四部分可以为空）
+ * 第三部分永远都是一个回车（\n）
+ * 动词有 GET POST PUT PATCH DELETE HEAD OPTION等
+ * 这里的路径包括「查询参数」，但不包括「锚点」
+ * 如果你没有写路径，那么路径默认为 /
+ * 第 2 部分中的 Content-Type 标注了第 4 部分的格式
 
 ## 用 Chrome 发请求
 1. 打开 Network
