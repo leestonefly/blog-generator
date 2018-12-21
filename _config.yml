@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天朗映月Oo。.
+title: 天朗映月Oo。
 subtitle:
 description:
 keywords:
 author: Lee stone
-language:
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://leestonefly.github.io/Myblog
-root: /Myblog/
+url: http://www.liyufei.xyz
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
