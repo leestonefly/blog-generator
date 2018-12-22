@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天朗映月Oo。
-subtitle:
-description:
+title: 黑椒牛柳研讨会
+subtitle: 修飞机的程序猿
+description: 学习记录博客
 keywords:
 author: Lee stone
 language: zh-Hans
@@ -80,3 +80,17 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:leestonefly/Myblog.git
+
+#feed
+## In the front-matter of your post, you can optionally add a description, 
+## intro or excerpt setting to write a summary for the post. 
+## Otherwise the summary will default to the excerpt or the first 140 characters of the post.
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
