@@ -93,7 +93,7 @@ MDN Web Docs是一个不断发展的Web技术学习平台和支持Web的软件�
 |`<figcaption>` |这个元素在 HTML5 中加入代表一个图例的说明。|
 |`<div>`	|代表一个通用的容器，没有特殊含义。|
 
-还有其他标签如`<a>`` <br>`等文字形式的标签、编辑类标签、嵌入内容标签`<iframe>`、<br>表格标签、表单标签、交互元素等，在此就不一一描述。详情请参见<br>
+还有其他标签如`<a>` `<br>`等文字形式的标签、编辑类标签、嵌入内容标签`<iframe>`、<br>表格标签、表单标签、交互元素等，在此就不一一描述。详情请参见<br>
 MDN：https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list
 
 ---
