@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:liyufei9264/Myblog.git
+  repo: git@github.com:leestonefly/Myblog.git
 
 #feed
 ## In the front-matter of your post, you can optionally add a description, 
