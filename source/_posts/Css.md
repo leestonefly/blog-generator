@@ -3,6 +3,10 @@ title: Css
 date: 2018-12-28 10:54:56
 tags: 作业
 ---
+
+简单介绍了下Css内容
+
+<!-- more -->
 # CSS概述
 ## 引用CSS的4种方法
 * 直接在html文件dom标签后面加入style=""属性

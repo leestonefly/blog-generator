@@ -23,7 +23,7 @@ tags: 作业
   ### HEAD：获取报文首部
     > HEAD /index.html HTTP/1.1
     > Host: www.hackr.jp 
-
+<!-- more -->
   ### DELETE：删除文件
     > DELETE /example.html HTTP/1.1
     > Host: www.hackr.jp

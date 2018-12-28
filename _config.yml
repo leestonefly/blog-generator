@@ -8,7 +8,7 @@ subtitle: 修飞机的程序猿
 description: 学习记录博客
 keywords:
 author: Lee stone
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -86,6 +86,7 @@ deploy:
 ## intro or excerpt setting to write a summary for the post. 
 ## Otherwise the summary will default to the excerpt or the first 140 characters of the post.
 feed:
+  excerpt_link: 阅读更多
   type: atom
   path: atom.xml
   limit: 20

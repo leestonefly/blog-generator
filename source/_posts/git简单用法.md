@@ -8,7 +8,7 @@ tags: 作业
 {% asset_img gitinit.jpg [创建仓库] %}
 
 ---
-
+<!-- more -->
 # 2. git add
     新建一个test.txt文件添加文件到缓存
 {% asset_img gitadd.jpg [添加到缓存] %}
