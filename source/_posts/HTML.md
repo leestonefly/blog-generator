@@ -1,7 +1,8 @@
 ---
 title: HTML
 date: 2018-12-21 15:28:12
-tags: 作业
+tags: 学习笔记
+categories: IT
 ---
 # W3C简介
 

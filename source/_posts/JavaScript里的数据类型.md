@@ -1,7 +1,8 @@
 ---
 title: JavaScript里的数据类型
 date: 2019-02-12 11:11:55
-tags: 作业
+tags: 学习笔记
+categories: IT
 ---
 > 学习资源：https://wangdoc.com/javascript
 

@@ -1,7 +1,8 @@
 ---
 title: CSS使用技巧
 date: 2019-01-02 20:38:29
-tags: 作业
+tags: 学习笔记
+categories: IT
 ---
 
 本篇文章主要介绍CSS技巧如下：

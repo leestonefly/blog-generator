@@ -2,6 +2,7 @@
 title: JavaScript语法
 date: 2019-01-24 14:18:27
 tags: 学习笔记
+categories: IT
 ---
 > 学习资源：http://javascript.ruanyifeng.com/
 

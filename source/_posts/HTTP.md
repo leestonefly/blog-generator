@@ -1,7 +1,8 @@
 ---
 title: HTTP
 date: 2018-12-20 09:24:13
-tags: 作业
+tags: 学习笔记
+categories: IT
 ---
   # HTTP请求
   请求报文是由请求方法、请求URI、协议版本、可选的请求首部字段和内容构成的。

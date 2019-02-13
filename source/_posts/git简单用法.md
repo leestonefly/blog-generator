@@ -1,7 +1,8 @@
 ---
 title: git简单用法
 date: 2018-12-17 14:56:34
-tags: 作业
+tags: 学习笔记
+categories: IT
 ---
 # 1. git init
     在本目录下创建git仓库
