@@ -398,6 +398,7 @@ var arr = Array.prototype.slice.call(arrayLike);
 ```
 ---
 # 数据转换技巧
+
 ## 转换为字符串
 * .tostring 方法
 * String() 函数
