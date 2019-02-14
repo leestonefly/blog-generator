@@ -366,8 +366,9 @@ f3.name // 'myName'
 ```
 f3.name返回函数表达式的名字。注意，真正的函数名还是f3，而myName这个名字只在函数体内部可用。
 
-### toString() 方法
+### .toString() 方法
 函数的toString方法返回一个字符串，内容是函数的源码。
+>此方法和.tostring 不相同
 
 ### arguments 对象
 由于 JavaScript 允许函数有不定数目的参数，所以需要一种机制，可以在函数体内部读取所有参数。这就是arguments对象的由来。
@@ -395,5 +396,61 @@ colors.forEach(function (color) {
 ```
 var arr = Array.prototype.slice.call(arrayLike);
 ```
+---
+# 数据转换技巧
+## 转换为字符串
+* .tostring 方法
+* String() 函数
+* ''+ Any 表达式
+## 转换为数字
+* Number()  方法
+* parseInt()  方法
+* parseFloat()  方法
+* `'1'-0 === 1`  表达式
+* `+'1'=== 1` 或`+'-1' === -1` 表达式
+## 转换为bool
+* Boolean() 函数
+* !!+ Any 表达式
+  
+# 内存图 
+javaScript中的内存主要分为heap(堆内存)、stack(栈内存)
 
+* number，string，null，undefined，boolean 这五类简单的数据类型主要使用的是stack(栈内存) 
+* object 在stack(栈内存)中存储heap(堆内存)中的地址，在heap(堆内存)中存储对象内部的数据
 
+>变量的方法与属性的实现，实际上就是对堆内存中的数据块进行的引用
+
+## 内存图的5个例子
+```
+var a = '1'
+var b = a
+b = '2' 
+a = ?    // 1
+---
+var a ={name : 'a'}
+var b = a
+b = {name : 'b'}
+a.name = ?   // a
+---
+var a = {name : 'a'}
+var b = a 
+b.name = 'b'
+a.name = ?   // b
+---
+var a = {name : 'a'}
+var b = a
+b = null
+a = ?   // {name : 'a'}
+---
+var a = {n:1}
+var b = a 
+a.x = a = {n:2}
+
+a.x = ?  // undefined
+b.x = ?  // [object object]
+
+```
+
+## 深拷贝和浅拷贝
+* 深拷贝：原始变量的内存，不随拷贝变量的更改而更改（包括堆内存和栈内存）
+* 浅拷贝：原始变量的堆内存，随拷贝变量的改变而改变
