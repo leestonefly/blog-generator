@@ -4,6 +4,8 @@ date: 2018-12-20 09:24:13
 tags: 学习笔记
 categories: IT
 ---
+简单介绍HTTP协议
+<!-- more -->
   # HTTP请求
   请求报文是由请求方法、请求URI、协议版本、可选的请求首部字段和内容构成的。
 
@@ -24,7 +26,7 @@ categories: IT
   ### HEAD：获取报文首部
     > HEAD /index.html HTTP/1.1
     > Host: www.hackr.jp 
-<!-- more -->
+
   ### DELETE：删除文件
     > DELETE /example.html HTTP/1.1
     > Host: www.hackr.jp

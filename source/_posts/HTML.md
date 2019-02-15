@@ -4,12 +4,14 @@ date: 2018-12-21 15:28:12
 tags: 学习笔记
 categories: IT
 ---
+简单介绍HTML
+<!-- more -->
 # W3C简介
 
 万维网联盟（World Wide Web Consortium，W3C），又称W3C理事会，是万维网的主要国际标准组织。为半自治非政府组织（quasi-autonomous non-governmental organisation）。
 
 {% asset_img W3C.jpg W3C %}
-<!-- more -->
+
 ---
 ## 历史
 * 万维网联盟（W3C）由`蒂姆·伯纳斯-李`于1994年10月离开欧洲核子研究中心（CERN）后成立，在欧盟执委会和国防高等研究计划署（DARPA）的支持下成立于麻省理工学院MIT计算机科学与人工智能实验室（MIT／LCS），DARPA曾率先推出了互联网及其前身ARPANET。

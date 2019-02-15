@@ -4,12 +4,14 @@ date: 2018-12-17 14:56:34
 tags: 学习笔记
 categories: IT
 ---
+简单介绍几个常用git命令
+<!-- more -->
 # 1. git init
     在本目录下创建git仓库
 {% asset_img gitinit.jpg [创建仓库] %}
 
 ---
-<!-- more -->
+
 # 2. git add
     新建一个test.txt文件添加文件到缓存
 {% asset_img gitadd.jpg [添加到缓存] %}

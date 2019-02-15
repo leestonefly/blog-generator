@@ -7,7 +7,7 @@ categories: IT
 > 学习资源：https://wangdoc.com/javascript
 
 ---
-
+<!-- more -->
 # 概述 
 
 JavaScript 语言的每一个值，都属于某一种数据类型。JavaScript 的数据类型，共有六种。（ES6 又新增了第七种 Symbol 类型的值）
@@ -30,7 +30,7 @@ JavaScript 语言的每一个值，都属于某一种数据类型。JavaScript �
 狭义的对象和数组是两种不同的数据组合方式，除非特别声明，本教程的“对象”都特指狭义的对象。
 
 函数其实是处理数据的方法，JavaScript 把它当成一种数据类型，可以赋值给变量，这为编程带来了很大的灵活性，也为 JavaScript 的“函数式编程”奠定了基础。
-<!-- more -->
+
 ---
 
 # null, undefined 和 boolean
