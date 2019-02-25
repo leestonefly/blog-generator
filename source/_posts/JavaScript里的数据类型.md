@@ -228,12 +228,45 @@ obj[foo]  // 2
 >方括号运算符内部还可以使用表达式。
 
 ## 函数
-JavaScript 有三种声明函数的方法
-* function 命令
-* 函数表达式
-* `Function` 构造函数
+JavaScript 有五种声明函数的方法
+* 具名函数
+```angular2
+ function f(x,y){
+     return x+y
+ }
+ f.name // 'f'
+```
+* 匿名函数
+```angularjs
+ var f
+ f = function(x,y){
+     return x+y
+ }
+ f.name // 'f'
+```
+* 具名函数赋值
+```angular2
+ var f
+ f = function f2(x,y){ return x+y }
+ f.name // 'f2'
+ console.log(f2) // undefined
+```
+* window.Function
+```angularjs
+ var f = new Function('x','y','return x+y')
+ f.name // "anonymous"
+```
+* 箭头函数
+```angularjs
+ var f = (x,y) => {
+     return x+y
+ }
+ var sum = (x,y) => x+y
+ var n2 = n => n*n
+```
 
 >如果同一个函数被多次声明，后面的声明就会覆盖前面的声明。
+
 >如果同时采用function命令和赋值语句声明同一个函数，最后总是采用赋值语句的定义。
 
 ## 数组
