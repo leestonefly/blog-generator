@@ -131,7 +131,7 @@ node2.addClass();
 ```javascript
 
 window.jQuery = function (nodeOrSelector) {
-    let nodes;
+    let nodes=[];
     if (typeof nodeOrSelector === 'string') {
         let temp = document.querySelectorAll(nodeOrSelector);
         for (let i = 0; i < temp.length; i++) {
@@ -156,12 +156,17 @@ window.jQuery = function (nodeOrSelector) {
         return array;
     };
     nodes.addClass = function (classes) {
-        classes.forEach((value) => {
+        if(typeof classes === "object"){
+            classes.forEach((value) => {
                 for (let i = 0; i < nodes.length; i++) {
                     nodes[i].classList.add(value);
                 }
+            })
+        }else {
+            for (let i = 0; i < nodes.length; i++) {
+                nodes[i].classList.add(classes);
             }
-        )
+        }
     };
     nodes.getText = function () {
         let texts = [];
