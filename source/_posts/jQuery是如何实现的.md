@@ -127,6 +127,7 @@ node2.addClass();
 
 ## 将Node2改为jQuery
 
+改完名字后，在向其中添加getText(),setText(),text()方法，获取或设定此节点的Text值。代码如下
 ```javascript
 
 window.jQuery = function (nodeOrSelector) {
