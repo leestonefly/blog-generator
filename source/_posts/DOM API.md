@@ -11,6 +11,9 @@ categories: IT
 # Node节点
 Node 分为 Document（html）、Element（元素）和 Text（文本），以及其他不重要的。
 
+通过实验，发现DOM树的结构和JS的数据结构之间有非常类似的结构
+{% asset_img window.png [结构图] %}
+<!-- more -->
 # Node 的接口
 ## 属性
 
